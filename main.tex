@@ -1,0 +1,86 @@
+\documentclass[output=book,
+  colorlinks,citecolor=brown,
+%  draft,draftmode,
+%  showindex,
+%  nobabel,
+%  booklanguage=german,
+%  multiauthors,
+		  ]{langscibook}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%          additional packages                 %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{localmetadata.tex}
+\input{localpackages.tex}
+\input{localhyphenation.tex}
+\addbibresource{localbibliography.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%             Frontmatter                      %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\input{localcommands.tex}
+
+\maketitle
+\frontmatter
+
+\currentpdfbookmark{Contents}{name} % adds a PDF bookmark
+{\sloppy\tableofcontents}
+\include{chapters/preface}
+\include{chapters/acknowledgments}
+\include{chapters/abbreviations}
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%             Chapters                         %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% To avoid the error:
+%     TeX capacity exceeded, sorry [main memory size=3000000]
+% Do the following:
+%     initexmf --edit-config-file=xelatex (or latex, pdflatex, etc.)
+%     Add line main_memory = 5000000 (or any other desired size)
+%	  initexmf --dump=xelatex (or latex, pdflatex, etc.)
+
+% Footnote 10 missing (not needed)
+% Fix overview in Ch. 7 (text + paragraph breaks + abbreviations)
+
+% Should I change WALS to \textsc{wals} ?
+% Punctuation after \gll ?
+
+% Before definition of absolute passive: (XXX REVIEWER B: POTENTIAL PASSIVES XXX) (XXX I CAN EASILY EXPLAIN AWAY THESE, BUT NOT RUSSIAN ANTP EXAMPLES XXX)
+
+% WHAT I HAVE CHECKED
+% - Statistics in 6.3.2 (Maximal syncretism)
+% - Appendix B
+% - Appendix C
+% - Name Inde
+% - Language Index
+% - Subject Index
+% - References + \emph{}
+
+\include{chapters/01} 
+\include{chapters/02} 
+\include{chapters/03} 
+\include{chapters/04} 
+\include{chapters/05}  
+\include{chapters/06} 
+\include{chapters/07} 
+\include{chapters/08} 
+
+\appendix
+
+\include{chapters/appendix-a}
+\include{chapters/appendix-b}
+\include{chapters/appendix-c}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%             Backmatter                       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \input{localseealso.tex}
+% % There is normally no need to change the backmatter section
+\input{backmatter.tex}
+\end{document}

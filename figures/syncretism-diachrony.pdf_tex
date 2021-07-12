@@ -1,0 +1,66 @@
+%% Creator: Inkscape 1.0.2-2 (e86c870879, 2021-01-15), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'syncretism-diachrony.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{907.08661417bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.42187495)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{figures/syncretism-diachrony.pdf}}%
+    \put(0.33415107,0.37433792){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ANTC\end{tabular}}}}%
+    \put(0.21513515,0.19977179){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}REFL\end{tabular}}}}%
+    \put(0.46513514,0.19933792){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}RECP\end{tabular}}}}%
+    \put(0.7145893,0.19933792){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}CAUS\end{tabular}}}}%
+    \put(0.59014916,0.37433792){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PASS\end{tabular}}}}%
+    \put(0.33415107,0.02746292){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ANTP\end{tabular}}}}%
+    \put(0.59040107,0.02746292){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}APPL\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{figures/syncretism-diachrony.pdf}}%
+  \end{picture}%
+\endgroup%
