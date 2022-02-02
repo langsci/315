@@ -568,7 +568,20 @@
 	\renewcommand{\lsISSNprint}{} %Print
 	\renewcommand{\lsSeriesText}{
             {\large Research on Comparative Grammar }
-         }
+
+            \bigskip
+
+            \textbf{Series editor}\\
+                Martin Haspelmath (Max Planck Institute for Evolutionary Anthropology)
+
+
+            In this series:
+
+            \begin{enumerate}
+                \item  Bahrt, Nicklas N. Voice syncretism.
+            \end{enumerate}
+            }
+
 \fi
 \ifx\lsSeries\scl
 	\newcommand{\lsSeriesTitle}{Studies in Caribbean Languages}
